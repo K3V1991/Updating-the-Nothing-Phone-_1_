@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/j8RK779/Update-Nothing-Phone.png" width="200"></a>
+<p align="center"><img src="https://github.com/K3V1991/Updating-the-Nothing-Phone-_1_/blob/main/Update-Nothing-Phone.png" width="200"></a>
 <h1 align="center"><b>Updating the Nothing Phone (1)</b></h1>
 <br />
 
