@@ -26,29 +26,29 @@ Sideload the Update Packages through the Recovery Interface
 ```
 adb reboot recovery
 ```
-4. The Phone reboots, you should see "No command" on the Screen. 
+4. The Phone reboots, you should see ```No command``` on the Screen. 
 5. Now press and hold the Power Button of your Phone. While you hold Power, press the Volume Up Button and let go of both Buttons quickly. You should the Android Recovery Menu.
-6. On your Phone, select the "Apply update from ADB" Option.
+6. On your Phone, select the ```Apply update from ADB``` Option.
 7. Run the Command: 
 ```
 adb devices
 ```
-8. This should return a Device Serial with the "sideload" next to its Name, indicating that your Device is connected to the Computer in Sideload Mode.
+8. This should return a Device Serial with the ```sideload``` next to its Name, indicating that your Device is connected to the Computer in Sideload Mode.
 9. On your Computer, type:
 ```
 adb sideload "filename".zip
 ```
 (Replace "filename" with the full Path, followed by the Name of the File. <br />
-11. The Update should install on your Phone. Once the Installation is complete, choose "Reboot system now" to reboot into the new Build.
+11. The Update should install on your Phone. Once the Installation is complete, choose ```Reboot system now``` to reboot into the new Build.
 <br />
 <br />
 
 ## Install via Local System Update:
 Built-in System Update Installation App
 
-1. Create a Folder named "ota" at the Root of the Internal Storage of your Phone. Copy the Update Zip File to that Folder.
+1. Create a Folder named ```ota``` at the Root of the Internal Storage of your Phone. Copy the Update Zip File to that Folder.
 2. Dial ```*#*#682#*#*``` to open up the Offline Update Tool.
-Note: You can also use an Activity Launcher App to execute the "OfflineOTAUpgrade" Tool. The Package Name is "com.nothing.OfflineOTAUpgradeApp".
+Note: You can also use an Activity Launcher App to execute the ```OfflineOTAUpgrade``` Tool. The Package Name is ```com.nothing.OfflineOTAUpgradeApp```.
 3. The Wizard will try to locate any valid OTA File present in the Internal Storage and install it. In case it fails, manually browse for the OTA Package.
 4. After selecting the OTA File, the Wizard will apply the Update and reboot the Device.
 <br />
